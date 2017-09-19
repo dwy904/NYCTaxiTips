@@ -1,5 +1,5 @@
 # NYC Taxi Tips Prediction
-![](http://www.nyc.gov/html/tlc/includes/site_images/branding/banner.gif)
+![](http://www.nyc.gov/html/tlc/images/features/fi_about_photo_trip_records.png)
 > **Weiye Deng** <br />
 > Business Intelligence Engineer <br />
 > MS. Analytics - Data Science <br />
