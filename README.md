@@ -46,7 +46,7 @@ install.packages('caret')
 setwd()
 ```
 
-## Data Cleaning and Feature Engineering
+## Data Cleaning
 
 1. Remove all values which are less than 0 in variable, Fare Amount; <br />
 2. Only select credit card transactions because only credit card tips can be captured in the system; <br />
