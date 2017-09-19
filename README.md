@@ -9,5 +9,6 @@ This report aims to build a quantitative model to predict the percentage of tip 
 
 1. Install R and RStudio:
 <br />
-  If R and Rstudio are not installed, please install them before the code is run. Please refer to this [setup instruction]( 
+
+If R and Rstudio are not installed, please install them before the code is run. Please refer to this [setup instruction]( 
 	https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/)
