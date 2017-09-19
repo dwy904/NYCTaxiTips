@@ -22,7 +22,7 @@ library(sparklyr)
 spark_install(version = "1.6.2")
 ```
 
-**3. Install the required packages** <br />
+**3. Install the required packages:** <br />
 ```r
 install.packages('ggplot2')
 install.packages('readr')
