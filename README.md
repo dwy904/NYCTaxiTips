@@ -45,3 +45,14 @@ install.packages('caret')
 ```r 
 setwd()
 ```
+
+## Data Cleaning and Feature Engineering
+
+1. Remove all values which are less than 0 in variable, Fare Amount; <br />
+2. Only select credit card transactions because only credit card tips can be captured in the system; <br />
+3. Remove variable, Payment Type, because there are only credit card payments in the remaining data; <br />
+4. Remove the negative observations that are in variable, Extra (rush hour and overnight charge); <br />
+5. Remove the observations that are less than or equal to 0 in variable, Passenger Count; <br />
+6. Remove the negative or 0 value observations in variable, Trip Distance; <br />
+7. Check the longitude and latitude data and ensure the location are within NYC area; <br />
+8. Convert variables into proper (categorical / factor format / date time) formats. <br />
