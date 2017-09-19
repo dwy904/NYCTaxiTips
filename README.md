@@ -5,7 +5,9 @@
 > Georgetown University <br />
 > dwy904@gmail.com <br />
 
-![](http://www.nyc.gov/html/tlc/images/features/fi_about_photo_trip_records.png)
+<img src="http://www.nyc.gov/html/tlc/images/features/fi_about_photo_trip_records.png" width=364 height=197 align="right"/>
+
+```![](http://www.nyc.gov/html/tlc/images/features/fi_about_photo_trip_records.png)```
 
 
 ## Introduction
