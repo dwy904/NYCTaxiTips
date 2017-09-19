@@ -41,4 +41,4 @@ install.packages('reshape2')
 install.packages('caret')
 ```
 
-**4. Set the working directory to folder, Data_File, using command ```setwd()```***
+**4. Set the working directory to folder, Data_File, using command ```r setwd()```**
