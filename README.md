@@ -57,5 +57,6 @@ setwd()
 7. Check the longitude and latitude data and ensure the location are within NYC area; <br />
 8. Convert variables into proper (categorical / factor format / date time) formats. <br />
 
+<br />
 
-> Code will be uploaded shortly
+> Note: Code will be uploaded shortly
