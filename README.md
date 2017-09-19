@@ -62,6 +62,10 @@ setwd()
 
 ## Feature Selection
 
+There are 30 in total attributes within the dataset after the data are processed. Surprisingly, only one variable, Pickup Latitude, is selected by the LASSO method, which indicates that most of the variables are not significantly correlated with the response variable, Tip Percentage. In order to reexamine the goodness of fit of these model features, an ordinary least squares multiple linear regression model is built after the LASSO method. The r-square statistic from the linear regression model is 4.7%, which means this model does not fit the data well enough to make predictions. It also indicates that the features are not significant enough to fit the data. It is possible that there is a weak linear relationship between the response variable and the predictive variables. <br />
+
+One other alternative is to turn the prediction problem into a classification problem. The goodness of features from this dataset is determined by investigating accuracy of the training and test dataset from the classification model. 
+
 ## Model Initialization 
 
 ## Cross Validation and Parameter Tuning
