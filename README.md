@@ -8,7 +8,6 @@
 > Georgetown University <br />
 > dwy904@gmail.com <br />
 > <br />
-  <br />
 
 ## Introduction
 
