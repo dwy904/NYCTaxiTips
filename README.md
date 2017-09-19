@@ -1,4 +1,5 @@
 # NYC Taxi Tips Prediction
+![](http://www.nyc.gov/html/tlc/includes/site_images/branding/banner.gif)
 > **Weiye Deng** <br />
 > Business Intelligence Engineer <br />
 > MS. Analytics - Data Science <br />
