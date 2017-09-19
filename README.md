@@ -7,8 +7,7 @@
 > MS. Analytics - Data Science <br />
 > Georgetown University <br />
 > dwy904@gmail.com <br />
-> <br />
-> <br />
+
 
 ## Introduction
 
