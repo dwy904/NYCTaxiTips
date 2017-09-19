@@ -105,9 +105,13 @@ Random forest algorithm is selected in these classification problems. The binnin
 |Accuracy|56%|60%|63%|
 
 <br />
-The figure below shows the classification performance on each class associated with different binning options. The diagonal matrix observations represent the number of true classifications. Therefore, the darker the diagonal matrix observations are, the better the classification performance on those classes are. The classification performance on option one is relatively poor in comparison to the other two options. <br />
+The figure below shows the classification performance on each class associated with different binning options. The diagonal matrix observations represent the number of true classifications. Therefore, the darker the diagonal matrix observations are, the better the classification performance on those classes are. The classification performance on option one is relatively poor in comparison to the other two options. 
 
-<img src="https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/ConfusionMatrix_BinningOption.png" width= 900 height= 600 />
+<br />
+
+<img src="https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/ConfusionMatrix_BinningOption.png" width= 900 height= 450 />
+
+<br />
 
 ## Cross Validation and Parameter Tuning
 
