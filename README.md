@@ -101,8 +101,6 @@ Random forest algorithm is selected in these classification problems. The binnin
 |    :---:    |     :---:  |   :---:  |   :---:  | 
 |Accuracy|56%|60%|63%|
 
-<br />
-
 
 ## Cross Validation and Parameter Tuning
 
