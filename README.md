@@ -59,6 +59,15 @@ setwd()
 
 
 ## Feature Engineering
+1. The administrative districts where the pick-up and drop-off activities (longitude and latitude) took place are identified by utilizing the NYC area shapefiles provided by Zillow. Replace the missing values as ‘Undefined’ area. <br />
+2. Identify the pick-up and drop-off hours (0:00 - 23:00) from ‘Date Time’, and create both categorical and continuous variables to store these values; <br />
+3. Create a categorical variable to bin ‘Passenger Count’ into 3 groups (1, 2-4, and >=5 passengers); <br />
+4. Create a categorical variable to bin ‘Trip Distance’ into 3 groups (0-5, 5-10, and >= 10 miles); <br />
+5. Create a categorical variable to identify the days of a week (Sunday - Saturday);
+6. Create a categorical variable to identify weekends; <br />
+7. Create a continuous variable to store the duration of a trip. This variable can be derived from variable, pick-up and drop-off Date Time; <br />
+8. Remove variables, ‘Tip Amount’ and ‘Total Amount’, because these variables have already been used to derive the response variable, Tip Percentage.
+
 
 ## Feature Selection
 
