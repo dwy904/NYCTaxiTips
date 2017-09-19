@@ -1,5 +1,9 @@
 # NYC Taxi Tips Prediction
-> by Weiye Deng
+> by Weiye Deng <br />
+> Business Intelligence Engineer <br />
+> MS. Analytics - Data Science <br />
+> Georgetown University <br />
+> dwy904@gmail.com 
 
 ## Introduction
 
