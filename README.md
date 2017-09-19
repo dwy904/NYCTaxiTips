@@ -115,7 +115,8 @@ The figure below shows the classification performance on each class associated w
 
 The random forest model associated with option 2 is chosen for cross validation and parameter tuning procedures due to its reasonable classification accuracy and the number of classes. These two procedures are performed because it is likely that the model classification accuracy can be boosted by utilizing hyper-parameter tuning. At the same time, cross validation analysis prevents classification models from overfitting. <br />
 
-Parameter tuning is first performed in search of the optimal parameter within the random forest model. The tree number is the targeted parameter to be tuned in the random forest model. The balanced training accuracy reaches its maximum at the tree number 50.  
+Parameter tuning is first performed in search of the optimal parameter within the random forest model. The tree number is the targeted parameter to be tuned in the random forest model. The balanced training accuracy reaches its maximum at the tree number 50.  <br />
+
 A random forest classification with 50 trees is the finalized model for this classification situation. In order to examine whether overfitting issue occurs, cross validation is performed following parameter tuning. <br />
 
 There are 5 separate folds during the cross validation process. The constant balanced validation accuracy indicates that the random forest classification is stable while 60% accuracy in the test dataset confirms all the analyses performed above are appropriate. The confusion matrix in Figure 6 below shows the classification accuracy by each class. The model is able to most accurately classify the tip group paying 0% tip according to the diagonal matrix. <br />
