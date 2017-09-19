@@ -56,3 +56,6 @@ setwd()
 6. Remove the negative or 0 value observations in variable, Trip Distance; <br />
 7. Check the longitude and latitude data and ensure the location are within NYC area; <br />
 8. Convert variables into proper (categorical / factor format / date time) formats. <br />
+
+
+> Code will be uploaded shortly
