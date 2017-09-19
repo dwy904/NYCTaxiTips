@@ -22,4 +22,23 @@ library(sparklyr)
 spark_install(version = "1.6.2")
 ```
 
+**3. Install the required packages** <br />
+```r
+install.packages('ggplot2')
+install.packages('readr')
+install.packages('rgeos')
+install.packages('sp')
+install.packages('rgdal')
+install.packages('lubridate')
+install.packages('utils')
+install.packages('googleVis')
+install.packages('chron')
+install.packages('glmnet')
+install.packages('sparklyr')
+install.packages('dplyr')
+install.packages('ggmap')
+install.packages('reshape2')
+install.packages('caret')
+```
 
+**4. Set the working directory to folder, Data_File, using command ```setwd()```***
