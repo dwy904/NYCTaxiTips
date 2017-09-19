@@ -57,6 +57,19 @@ setwd()
 7. Check the longitude and latitude data and ensure the location are within NYC area; <br />
 8. Convert variables into proper (categorical / factor format / date time) formats. <br />
 
+
+## Feature Engineering
+
+## Feature Selection
+
+## Model Initialization 
+
+## Cross Validation and Parameter Tuning
+
+## Conclusion
+In this report, data cleaning and feature engineering procedures are carefully performed in a reasonable and appropriate approach. The data cleaning process successfully removes the unreasonable, unrelated and unnecessary observations. The feature engineering procedure diversifies the formats of the data. Both linear regression and classification models are built during model training process. The linear regression model is not an appropriate modeling method in this situation due to a weak linear correlation between the response and predictive variables. Although the multiclass classification model provides a better performance in comparison with the linear model, it is still not intelligent enough to make precise classifications. 
+
+
 <br />
 
 > Note: Code will be uploaded shortly
