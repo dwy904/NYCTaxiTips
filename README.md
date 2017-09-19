@@ -84,11 +84,9 @@ There are 30 in total attributes within the dataset after the data are processed
 One other alternative is to turn the prediction problem into a classification problem. The goodness of features from this dataset is determined by investigating accuracy of the training and test dataset from the classification model. 
 
 ## Feature Re-Engineering 
-In order to build a classification model, the original response variable, Tip Percentage, needs to be grouped into different bins as a categorical response variable. Several binning options are generated to train the classification model. The binning option that is associated with the reasonable accuracy rate is selected for further investigations (parameter tuning and cross validation).
+In order to build a classification model, the original response variable, Tip Percentage, needs to be grouped into different bins as a categorical response variable. Several binning options are generated to train the classification model. The binning option that is associated with the reasonable accuracy rate is selected for further investigations (parameter tuning and cross validation). Choosing options one and two as shown above turns the model into a multiclass classification problem. More information is reserved by choosing either of the two options. Option three turns the model into a binary classification problem which only describes whether a customer pays tip or not after a taxi trip. <br />
 
-![](https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/FeatureReEngineering.png)
-
-Choosing options one and two as shown above turns the model into a multiclass classification problem. More information is reserved by choosing either of the two options. Option three turns the model into a binary classification problem which only describes whether a customer pays tip or not after a taxi trip.
+![](https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/FeatureReEngineering.png) <br />
 
 When the dataset for classification model training is partitioned, the portion of each tip group within the training dataset should be balanced because keeping each class in an equal portion during the model training procedure prevents overfitting toward one class. Only about 20% of the data can be used in the training dataset due to the equal portion requirement for the training dataset. In this situation, balanced accuracy from the training dataset is used to evaluate the classification performance of different binning options. 
 
