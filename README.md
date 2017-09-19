@@ -88,6 +88,8 @@ In order to build a classification model, the original response variable, Tip Pe
 <br />
 <br />
 ![](https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/FeatureReEngineering.png)
+width="200" height="400"
+
 <br />
 <br />
 When the dataset for classification model training is partitioned, the portion of each tip group within the training dataset should be balanced because keeping each class in an equal portion during the model training procedure prevents overfitting toward one class. Only about 20% of the data can be used in the training dataset due to the equal portion requirement for the training dataset. In this situation, balanced accuracy from the training dataset is used to evaluate the classification performance of different binning options. 
@@ -105,7 +107,7 @@ Random forest algorithm is selected in these classification problems. The binnin
 <br />
 The figure below shows the classification performance on each class associated with different binning options. The diagonal matrix observations represent the number of true classifications. Therefore, the darker the diagonal matrix observations are, the better the classification performance on those classes are. The classification performance on option one is relatively poor in comparison to the other two options. <br />
 
-![](https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/ConfusionMatrix_BinningOption.png = 600x500)
+<img src="https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/ConfusionMatrix_BinningOption.png" width= 500 height= 600 />
 
 ## Cross Validation and Parameter Tuning
 
