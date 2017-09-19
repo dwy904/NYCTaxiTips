@@ -113,6 +113,15 @@ The figure below shows the classification performance on each class associated w
 
 ## Cross Validation and Parameter Tuning
 
+The random forest model associated with option 2 is chosen for cross validation and parameter tuning procedures due to its reasonable classification accuracy and the number of classes. These two procedures are performed because it is likely that the model classification accuracy can be boosted by utilizing hyper-parameter tuning. At the same time, cross validation analysis prevents classification models from overfitting. <br />
+
+Parameter tuning is first performed in search of the optimal parameter within the random forest model. The tree number is the targeted parameter to be tuned in the random forest model. The balanced training accuracy reaches its maximum at the tree number 50.  
+A random forest classification with 50 trees is the finalized model for this classification situation. In order to examine whether overfitting issue occurs, cross validation is performed following parameter tuning. <br />
+
+There are 5 separate folds during the cross validation process. The constant balanced validation accuracy indicates that the random forest classification is stable while 60% accuracy in the test dataset confirms all the analyses performed above are appropriate. The confusion matrix in Figure 6 below shows the classification accuracy by each class. The model is able to most accurately classify the tip group paying 0% tip according to the diagonal matrix. <br />
+
+
+
 ## Conclusion
 In this report, data cleaning and feature engineering procedures are carefully performed in a reasonable and appropriate approach. The data cleaning process successfully removes the unreasonable, unrelated and unnecessary observations. The feature engineering procedure diversifies the formats of the data. Both linear regression and classification models are built during model training process. The linear regression model is not an appropriate modeling method in this situation due to a weak linear correlation between the response and predictive variables. Although the multiclass classification model provides a better performance in comparison with the linear model, it is still not intelligent enough to make precise classifications. 
 
