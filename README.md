@@ -89,7 +89,6 @@ In order to build a classification model, the original response variable, Tip Pe
 <br />
 ![](https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/FeatureReEngineering.png)
 
-<br />
 When the dataset for classification model training is partitioned, the portion of each tip group within the training dataset should be balanced because keeping each class in an equal portion during the model training procedure prevents overfitting toward one class. Only about 20% of the data can be used in the training dataset due to the equal portion requirement for the training dataset. In this situation, balanced accuracy from the training dataset is used to evaluate the classification performance of different binning options. 
 
 
@@ -113,9 +112,13 @@ Parameter tuning is first performed in search of the optimal parameter within th
 
 |Tree Number|10|50|100|200|
 |    :---:    |     :---:  |   :---:  |   :---:  |  :---:  | 
-|Balanced Accuracy| 59%|60%|60%|60%|
+|**Balanced Accuracy**| 59%|60%|60%|60%|
 
 A random forest classification with 50 trees is the finalized model for this classification situation. In order to examine whether overfitting issue occurs, cross validation is performed following parameter tuning. <br />
+
+|Cross Validation|Fold 1|Fold 2|Fold 3|Fold 4|Fold 5|Test Accuracy|
+| :---: | :---:  |   :---:  |   :---:  |  :---:  |   :---:  |   :---:  | 
+|**Balanced Accuracy**| 60%|60%|60%|60%|60%|60%|
 
 There are 5 separate folds during the cross validation process. The constant balanced validation accuracy indicates that the random forest classification is stable while 60% accuracy in the test dataset confirms all the analyses performed above are appropriate. The confusion matrix in Figure 6 below shows the classification accuracy by each class. The model is able to most accurately classify the tip group paying 0% tip according to the diagonal matrix. <br />
 
