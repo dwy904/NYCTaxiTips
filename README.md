@@ -95,6 +95,15 @@ When the dataset for classification model training is partitioned, the portion o
 
 ## Model Initialization 
 
+Random forest algorithm is selected in these classification problems. The binning option that provides the most information and yields the highest accuracy rate is selected to perform in-depth analysis (parameter tuning and cross validation). The classification training accuracies are shown below for different tip binning option groups. As the number of classes increases, the classification accuracies tend to decreased. Meanwhile, less information is explored when there are fewer classes in the classification model.
+
+|Option|1|2|3|
+|    :---:    |     :---:  |   :---:  |   :---:  | 
+|Accuracy|56%|60|63%|
+
+The figure below shows the classification performance on each class associated with different binning options. The diagonal matrix observations represent the number of true classifications. Therefore, the darker the diagonal matrix observations are, the better the classification performance on those classes are. The classification performance on option one is relatively poor in comparison to the other two options.
+
+
 ## Cross Validation and Parameter Tuning
 
 ## Conclusion
