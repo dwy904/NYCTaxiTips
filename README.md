@@ -122,6 +122,8 @@ A random forest classification with 50 trees is the finalized model for this cla
 
 There are 5 separate folds during the cross validation process. The constant balanced validation accuracy indicates that the random forest classification is stable while 60% accuracy in the test dataset confirms all the analyses performed above are appropriate. The confusion matrix in Figure 6 below shows the classification accuracy by each class. The model is able to most accurately classify the tip group paying 0% tip according to the diagonal matrix. <br />
 
+<br />
+
 ![](https://github.com/dwy904/TipsPrediction_NYCGreenTaxi/blob/master/ConfusionMatrix_Test.png)
 
 
