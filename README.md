@@ -1,10 +1,12 @@
 # NYC Taxi Tips Prediction
-![](http://www.nyc.gov/html/tlc/images/features/fi_about_photo_trip_records.png)
 > **Weiye Deng** <br />
 > Business Intelligence Engineer <br />
 > MS. Analytics - Data Science <br />
 > Georgetown University <br />
-> dwy904@gmail.com 
+> dwy904@gmail.com <br />
+
+![](http://www.nyc.gov/html/tlc/images/features/fi_about_photo_trip_records.png)
+
 
 ## Introduction
 
